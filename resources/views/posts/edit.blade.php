@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <form action="{[ route('posts.update', $post) }}" method="POST" enctype="multipart/form-data">
+                    <form action="{{ route('posts.update', $post) }}" method="POST" enctype="multipart/form-data">
                         <div class="form-group">
                             <label>Titulo *</label>
                             <input type="text" name="title" class="form-control" required value="{{ old('title',$post->title) }}">
@@ -29,7 +29,7 @@
                         </div>
                         <div class="form-group">
                             <label>Contenido embebido</label>
-                            <textarea name="iframe" class="form-control" required>{{ old('iframe',$post->iframe) }}</textarea>
+                            <textarea name="iframe" class="form-control" >{{ old('iframe',$post->iframe) }}</textarea>
                         </div>
                         <div class="form-group">
                             @csrf
