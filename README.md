@@ -11,23 +11,56 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
+_Necesitaras instalar un paquete para convertir tu computadora en un servidor local como LARAGON, XAMPP, LAMPP o alguno de tu agrado. _
 ```
-Da un ejemplo
+Yo tengo instalado LARAGON por su facilidad de uso.
 ```
 
 ### Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-_Dí cómo será ese paso_
+```
+_1. Bien, lo primero que debemos hacer es ejecutar el paquete que encendera nuestro servidor local._
 
 ```
-Da un ejemplo
+_2. Luego, debemos colocar los archivos dentro de una carpeta que crearemos dentro del "root" del programa que estemos utilizando._
+
+```
+_3. Abrimos la terminal, colocamos "npm run dev" y ejecutamos_
+
+```
+_4. Crearemos una base de datos que se llame "campus"._
+
+```
+_5. En la terminal nuevamente colocaremos "php artisan migrate --seed" y ejecutamos para enviar todos los datos necesarios y de prueba a la BD_
+
+```
+_6. En este momento podriamos ir a la pagina de nuestro servidor local._
+
+```
+_7. Si por alguna razón, no visualiza los datos puede colocar en la terminal "php artisna serve" y ejecutar._
+
+```
+En mi caso que utilicé LARAGON.
+
+```
+1. Creó una carpeta llamado proyecto_blog dentro de root y luego coloco dentro de proyecto_blog los archivos del repositorio.
+
+```
+2. Despues de esto, enciendo el servidor local.
+
+```
+3. Creo una base de datos llamada "campus" y en la terminal ejecuto el comando "php artisan migrate --seed".
+
+```
+4. Luego ejecuto el comando "npm artisan serve"
+
+```
+5. Al final podremos observar la pagina local y sino logramos visulizarla aún podemos ejecutar el comando "php artisan serve".
+
 ```
 
-_Y repite_
 
 ```
 hasta finalizar
