@@ -50,7 +50,7 @@ _7. Si por alguna razón, no visualiza los datos puede colocar en la terminal "p
 En mi caso que utilicé LARAGON.
 
 ```
-1. Creó una carpeta llamado proyecto_blog dentro de root y luego coloco dentro de proyecto_blog los archivos del repositorio.
+1. Creé una carpeta llamado proyecto_blog dentro de root y luego coloco dentro de proyecto_blog los archivos del repositorio.
 
 ```
 ```
@@ -70,7 +70,7 @@ En mi caso que utilicé LARAGON.
 ```
 ## Construido con 🛠️
 
-* [Laragon](http://www.dropwizard.io/1.0.2/docs/) - Paquete para servidor local
-* [Laravel](http://www.dropwizard.io/1.0.2/docs/) - El framework utilizado
-* [Composer](https://maven.apache.org/) - Manejador de dependencias
-* [booststrap](https://rometools.github.io/rome/) - Usado para generar lo visual
+* [Laragon](https://laragon.org/docs/) - Paquete para servidor local
+* [Laravel](https://laravel.com/docs/6.x) - El framework utilizado
+* [Composer](https://getcomposer.org/doc/) - Manejador de dependencias
+* [booststrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - Usado para generar lo visual
